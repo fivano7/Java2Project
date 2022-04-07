@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="IstinaIliIzazov1.jnlp">
+  <information>
+    <title>IstinaIliIzazov1</title>
+    <vendor>filip</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="IstinaIliIzazov1.jar" size="49229" download="eager" />
+    <jar href="lib\IstinaIliIzazovContract.jar" size="3368" download="eager" />
+    <jar href="lib\fscontext.jar" size="22769" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="IstinaIliIzazov1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="hr.algebra.IstinaIliIzazovApplication"  name="IstinaIliIzazov1" />
+  <update check="always"/>
+</jnlp>

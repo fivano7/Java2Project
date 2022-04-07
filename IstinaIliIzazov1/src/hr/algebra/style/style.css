@@ -1,0 +1,52 @@
+.grid-pane {
+    -fx-background-color: #004369;
+}
+
+.gumbPozitivan {
+    -fx-background-color: #01949A;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.gumbNegativan {
+    -fx-background-color: #DB1F48;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.headerFont {
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.ostaliFont {
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+
+}
+
+.textCrveni {
+    -fx-font-family: "Arial";
+    -fx-text-fill: #DB1F48;
+
+}
+
+.meni {
+    -fx-background-color: #01949A;   
+}
+
+.meni .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-padding: 0px;
+}
+
+.menu-item .label{
+    -fx-text-fill: black;
+}
+
+.combo-box-popup .list-view {
+    -fx-font-size : 1.2em;
+}

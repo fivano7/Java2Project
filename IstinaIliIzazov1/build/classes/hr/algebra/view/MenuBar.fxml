@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar styleClass="meni" stylesheets="@../style/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.controller.MenuBarController">
+    <menus>
+        <Menu mnemonicParsing="false" text="Aplikacija">
+            <items>
+            <MenuItem mnemonicParsing="false" onAction="#spremiIgru" text="Spremi igru" />
+            <MenuItem mnemonicParsing="false" onAction="#ucitajIgru" text="Učitaj igru" />
+            <MenuItem mnemonicParsing="false" onAction="#zavrsiIgru" text="Završi igru" />
+            <MenuItem mnemonicParsing="false" onAction="#prikaziInformacije" text="Informacije" />
+            <MenuItem mnemonicParsing="false" onAction="#kreirajDokumentaciju" text="Kreiraj dokumentaciju" />
+                <MenuItem mnemonicParsing="false" onAction="#zatvoriAplikaciju" text="Zatvori aplikaciju" />
+            </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Postavke">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#otvoriPostavkeSucelja" text="Postavke sučelja" />
+         </items></Menu>
+    </menus>
+</MenuBar>
